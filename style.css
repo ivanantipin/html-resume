@@ -56,15 +56,6 @@ li{
   font-size: 7pt;
 }
 
-#sidebar{
-  float: right;
-  position: relative; /* for disclaimer */
-  width: var(--sidebar-width);
-  height: 100%;
-  padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #f2f2f2;
-  font-size: 8.5pt;
-}
 
 /* main */
 
@@ -93,7 +84,12 @@ li{
 
 .subtitle{
   font-size: 8pt;
+  float: left;
 }
+.contact{
+  float: right;
+}
+
 
 /*** categorial blocks ***/
 
@@ -244,7 +240,7 @@ li{
 }
 
 .main-block:not(.concise) .details div{
-  margin: 0.18in 0 0.1in 0; 
+  margin: 0in 0 0.1in 0;
 }
 
 .main-block:not(.concise) .blocks:last-child .details div{
@@ -290,7 +286,7 @@ li{
 }
 
 #main li{
-  margin: 0 0 0.025in 0;
+  margin: 0 0 0.05in 0;
 }
 
 /****** customize list symbol style ******/
@@ -313,19 +309,6 @@ li{
 
 .details .concise li{
   margin-left: 0 !important;
-}
-
-
-
-/* sidebar */
-
-#sidebar h1{
-  font-weight: 400;
-  font-size: 11pt;
-}
-
-.side-block{
-  margin-top: 0.5in; 
 }
 
 #contact ul{

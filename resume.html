@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="dep/Font-Awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="deps/normalize.css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="deps/Font-Awesome/css/font-awesome.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body lang="en">
@@ -11,6 +11,10 @@
     <header id="title">
         <h1>Ivan Antipin</h1>
         <span class="subtitle">Software Engineer &amp; tech lead</span>
+        <span class="contact">
+            <div>tel: (45)50173238</div>
+            <div>email: ivan.antipin@gmail.com</div>
+        </span>
     </header>
     <section class="main-block">
         <h2>
@@ -30,41 +34,35 @@
                 </header>
                 <div>
                     <ul>
-                        <li>Designed and implemented highly available, horizontally scalable, long term storage with
-                            gRPC/Cassandra.
-                        </li>
-                        <li>Reimplemented and led development of main Nordea trade storage and validation system. Designed API and scaled development.
-                          Led the team of 3 devs. The project was recognized as an achievement of an IT in the organization.
-                        </li>
-                        <li>Designed and led implementation in-house replacement of 3rd party risk managing
-                            system. Frontend and backend. Led the team of 5 people.
-                        </li>
-                        <li>Designed and led implementation of alternative for 3rd party ”too-expensive” system for
-                            complex SWIFT message processing with a very tight deadline. Frontend and backend. Led the team of 3 people.
-                            The project was recognized as a significant achievement of IT in the organization.
+                        <li>Designed and implemented highly available, horizontally scalable, long term storage with gRPC/Cassandra. </li>
+
+                        <li class="odd-row">Reimplemented and led development of main Nordea trade storage and validation system. Designed API and scaled development.
+                            Led the team of 3 people. The project was recognized as an achievement of an IT in the organization.
                         </li>
 
-                        <li>Reimplemented troubled API infrastructure for strategic static data system. The project was
-                            recognized as a significant achievement of IT in the organization.
+                        <li>Designed and led implementation of in-house replacement for 3rd party risk managing system. Frontend and backend. Led the team of 5 people.</li>
+
+                        <li>Designed and led implementation of alternative for 3rd party ”too-expensive” system for complex SWIFT message processing with a very tight deadline.
+                            Frontend and backend. Led the team of 3 people. The project was recognized as an achievement of an IT in the organization.
                         </li>
 
-                        <li>Replaced legacy Nordea major risk engine and sped it up more than x10 times.</li>
-                        <li>Worked across teams to promote best programming practices.</li>
-                        <li>Developed interview process pipeline.</li>
-                        <li>Influenced gRPC based API development in Nordea as an alternative to the REST for
-                            system-to-system communications.
-                        </li>
-                        <li>Influenced and promoted Kotlin usage in Nordea as an alternative to Java.</li>
+                        <li>Reimplemented troubled API infrastructure for strategic static data system. The project was recognized as an achievement of an IT in the organization.</li>
+
+                        <li>Replaced legacy Nordea VaR risk engine and sped it up more than x10 times comparing to previous one.</li>
+
+                        <li>Promoted best programming practices via technical presentations</li>
+
+                        <li>Influenced and promoted Kotlin and gRPC usage in Nordea</li>
                     </ul>
                 </div>
-              <div>
-                <div><h4>Tech Stack:</h4></div>
-                <ul>
-                  <li>Kotlin/Java/TypeScript/SQL</li>
-                  <li>Kafka/SqLite/Oracle/RocksDB/Cassandra/Mongo/Redis</li>
-                  <li>React/gRPC/Docker/REST/OpenApi/Avro</li>
-                </ul>
-              </div>
+                <div>
+                    <h4 style="margin: 0px">Tech Stack:</h4>
+                    <ul >
+                        <li>Kotlin/Java/TypeScript/SQL</li>
+                        <li>Kafka/SqLite/Oracle/RocksDB/Cassandra/Mongo/Redis</li>
+                        <li>React/gRPC/Docker/REST/OpenApi/Avro</li>
+                    </ul>
+                </div>
 
             </div>
         </section>
@@ -82,7 +80,13 @@
                 </header>
                 <div>
                     <ul>
-                        <li>Designed and implemented backend of risk management system.</li>
+                        <li>Designed and implemented backend of risk management system with grid computing.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin: 0px">Tech Stack:</h4>
+                    <ul >
+                        <li>Java/Oracle/Oracle Coherence</li>
                     </ul>
                 </div>
             </div>
@@ -97,11 +101,17 @@
                 <header>
                     <h3>Senior Software Engineer</h3>
                     <span class="place">Luxoft</span>
-                    <span class="location">Moscow, Russia</span>
+                    <span class="location">Moscow</span>
                 </header>
                 <div>
                     <ul>
                         <li>Implemented low latency price distribution system with zero GC.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin: 0px">Tech Stack:</h4>
+                    <ul >
+                        <li>Java/NIO/Multicast</li>
                     </ul>
                 </div>
             </div>
@@ -116,17 +126,22 @@
                 <header>
                     <h3>Senior Software Engineer</h3>
                     <span class="place">Deutsche Bank</span>
-                    <span class="location">Moscow, Russia</span>
+                    <span class="location">Moscow</span>
                 </header>
                 <div>
                     <ul>
                         <li>Designed and implemented order management system with embedded matching engine. Reduced
                             latency and throughput x5 comparing to previous system.
                         </li>
-                        <li>Implemented declarative BDD framework ( a-la Cucumber style that was non-existent at that
-                            time).
+                        <li>Implemented declarative BDD framework ( a-la Cucumber style that was non-existent at that time).
                         </li>
                         <li>Reimplemented price distribution component of AutobahnFX.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin: 0px">Tech Stack:</h4>
+                    <ul >
+                        <li>Java/Oracle/JMS</li>
                     </ul>
                 </div>
             </div>
