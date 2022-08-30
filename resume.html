@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<script type="text/javascript" src="include.js"></script>
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="deps/normalize.css/normalize.css"/>
@@ -22,14 +23,14 @@
         </h2>
         <section class="blocks">
             <div class="date">
-<!--                <span></span><span></span>-->
             </div>
             <div>
-                I am passionate technology-agnostic developer and tech lead with extensive hands-on experience in
-                designing simple, robust and scalable systems.
-                Have a deep understanding of concurrency, modern computers performance and system design. Have a
-                good practical CS knowledge.
-                In 80-90 % of projects exceeded management expectations. I love programming and making difference.
+                I am passionate, technology-agnostic developer and tech lead with extensive hands-on experience in
+                designing robust and scalable systems.
+                Have a long list of completed projects where I was a key technical person ( tech lead or lead
+                developer).
+                In 80-90 % of projects I managed to exceed stakeholders expectations. I love programming and making
+                difference.
             </div>
         </section>
         <h2>
@@ -49,23 +50,20 @@
                 </header>
                 <div>
                     <ul>
-                        <li>Designed and implemented highly available, horizontally scalable, long term storage with
-                            gRPC/Cassandra.
-                        </li>
 
-                        <li class="odd-row">Reimplemented and led development of main Nordea trade storage and
-                            validation system. Designed API and scaled development.
-                            Led the team of 3 people. The project was recognized as an achievement of an IT in the
+                        <li class="odd-row">Reimplemented and led development of main Nordea trade storage system.
+                            Designed API and scaled development. Led the team of 3 devs. The project was recognized as
+                            an achievement of an IT in the
                             organization.
                         </li>
 
                         <li>Designed and led implementation of in-house replacement for 3rd party risk managing system.
-                            Frontend and backend. Led the team of 5 people.
+                            Frontend and backend. Led the team of 5 devs.
                         </li>
 
                         <li>Designed and led implementation of alternative for 3rd party ”too-expensive” system for
                             complex SWIFT message processing with a very tight deadline.
-                            Frontend and backend. Led the team of 3 people. The project was recognized as an achievement
+                            Frontend and backend. Led the team of 3 devs. The project was recognized as an achievement
                             of an IT in the organization.
                         </li>
 
@@ -75,6 +73,10 @@
 
                         <li>Replaced legacy Nordea VaR risk engine and sped it up more than x10 times comparing to
                             previous one.
+                        </li>
+
+                        <li>Designed and implemented highly available, horizontally scalable, long term storage with
+                            gRPC/Cassandra.
                         </li>
 
                         <li>Promoted best programming practices via technical presentations</li>
@@ -89,7 +91,7 @@
                     <ul>
                         <li>Kotlin/Java/TypeScript/SQL</li>
                         <li>Kafka/SqLite/Oracle/RocksDB/Cassandra/Mongo/Redis</li>
-                        <li>Java concurrency/multithreading/React/gRPC/Linux/Docker/REST/OpenApi/Avro/ProtoBuf/Gradle
+                        <li>Microservices/React/gRPC/Linux/Docker/REST/OpenApi/Avro/ProtoBuf/Gradle/Multithreading
                         </li>
                     </ul>
                 </div>
@@ -162,7 +164,7 @@
                 <div>
                     <ul>
                         <li>Designed and implemented order management system with embedded matching engine. Reduced
-                            latency and throughput x5 comparing to previous system.
+                            latency and throughput x5 comparing to a predecessor system.
                         </li>
                         <li>Implemented declarative BDD framework ( a-la Cucumber style that was non-existent at that
                             time).
@@ -178,9 +180,6 @@
                 </div>
             </div>
         </section>
-    </section>
-
-    <section class="main-block concise">
         <h2>
             <i class="fa fa-graduation-cap"></i> Education
         </h2>
@@ -199,6 +198,12 @@
             </div>
         </section>
     </section>
+    <div class="rec_incl" w3-include-html="recomend.html"></div>
 </section>
 </body>
 </html>
+
+<script>
+includeHTML();
+
+</script>

@@ -73,7 +73,7 @@ li{
 
 #title h1{
   font-weight: 300;
-  font-size: 18pt;
+  font-size: 13pt;
   line-height: 1.5;
 }
 
@@ -349,4 +349,42 @@ li{
   font-family: "Source Code Pro";
   font-weight: 400;
   font-style: normal;
+}
+
+
+.recommendation{
+  margin: auto 2pt auto 4pt;
+}
+
+.recommendor{
+  margin-top: 4pt;
+  margin-bottom: 2pt;
+}
+
+.recommendor_title{
+  margin-bottom: 1pt;
+  font-style: italic;
+}
+
+.ul_class{
+    padding-inline-start: 10px;
+}
+
+.recommendations_h2{
+   position: relative;
+  top: var(--row-blocks-padding-top);
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 11pt;
+  color: #555;
+}
+
+.rec_incl{
+    margin-left :55px
+}
+
+.rec_incl_cover{
+    margin-left :10px
 }
